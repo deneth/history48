@@ -1,0 +1,18 @@
+<?php
+define('VERSION_NUMBER', '0.2'); // 
+define('VERSION_DATE', 'mars 2018'); // 
+define('THEME', 'default'); // 
+define('AUTHOR', 'deneth'); //
+
+// connexion info for database
+define('BDD_HOST', 'localhost'); // host
+define('BDD_BDD', 'akb48'); // bdd name
+define('BDD_PORT', '3306'); // port
+define('BDD_USER', ''); // user
+define('BDD_PASS', ''); // password
+
+// 
+define('APP_NAME', 'History48');
+define('TITLE', 'AKB48 History');
+define('LANG', 'en'); // en, fr 
+?>
