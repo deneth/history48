@@ -1,0 +1,356 @@
+/*          */
+/* Group 48 */
+/*          */
+
+
+/* AKB48 */
+.akb48-color {
+    color: #ef81b2;
+}
+
+.teamA-color {
+    color: #f576a3;
+}
+
+.teamK-color {
+    color: #80bb18;
+}
+
+.teamB-color {
+    color: #6db6d9;
+}
+
+.team4-color {
+    color: #ffd300;
+}
+
+.team8-color {
+    color: #0e4d9a;
+}
+
+.akbRS-color {
+    color: #8f8f8f;
+}
+
+.akb48-bg {
+    background: #ef81b2;
+}
+
+.teamA-bg {
+    background: #f576a3;
+}
+
+.teamK-bg {
+    background: #80bb18;
+}
+
+.teamB-bg {
+    background: #6db6d9;
+}
+
+.team4-bg {
+    background: #ffd300;
+}
+
+.team8-bg {
+    background: #0e4d9a;
+}
+
+.akbRS-bg {
+    background: #8f8f8f;
+}
+
+
+/* SKE48 */
+
+.ske48-color {
+    color: #f8b600;
+}
+
+.teamS-color {
+    color: #ffc213;
+}
+
+.teamKII-color {
+    color: #fe2e2e;
+}
+
+.teamE-color {
+    color: #74bea7;
+}
+
+.skeRS-color {
+    color: #8f8f8f;
+}
+
+.ske48-bg {
+    background: #f8b600;
+}
+
+.teamS-bg {
+    background: #ffc213;
+}
+
+.teamKII-bg {
+    background: #fe2e2e;
+}
+
+.teamE-bg {
+    background: #74bea7;
+}
+
+.skeRS-bg {
+    background: #8f8f8f;
+}
+
+
+/* NMB48 */
+
+.nmb48-color {
+    color: #a2590c;
+}
+
+.teamN-color {
+    color: #df9732;
+}
+
+.teamM-color {
+    color: #db4e87;
+}
+
+.teamBII-color {
+    color: #3f74c8;
+}
+
+.nmbRS-color {
+    color: #8f8f8f;
+}
+
+.nmb48-bg {
+    background: #a2590c;
+}
+
+.teamN-bg {
+    background: #df9732;
+}
+
+.teamM-bg {
+    background: #db4e87;
+}
+
+.teamBII-bg {
+    background: #3f74c8;
+}
+
+.nmbRS-bg {
+    background: #8f8f8f;
+}
+
+
+/* HKT48 */
+
+.hkt48-color {
+    color: #000000;
+}
+
+.teamH-color {
+    color: #c3e76b;
+}
+
+.teamKIV-color {
+    color: #a7dcea;
+}
+
+.teamTII-color {
+    color: #ffdf00;
+}
+
+.hktRS-color {
+    color: #8f8f8f;
+}
+
+.hkt48-bg {
+    background: #000000;
+}
+
+.teamH-bg {
+    background: #c3e76b;
+}
+
+.teamKIV-bg {
+    background: #a7dcea;
+}
+
+.teamTII-bg {
+    background: #ffdf00;
+}
+
+.hktRS-bg {
+    background: #8f8f8f;
+}
+
+
+/* NGT48 */
+
+.ngt48-color {
+    color: #e60012;
+}
+
+.teamNIII-color {
+    color: #e60012;
+}
+
+.ngtRS-color {
+    color: #8f8f8f;
+}
+
+.ngt48-bg {
+    background: #e60012;
+}
+
+.teamNIII-bg {
+    background: #e60012;
+}
+
+.ngtRS-bg {
+    background: #8f8f8f;
+}
+
+
+/* STU48 */
+
+.stu48-color {
+    color: #cee7fb;
+}
+
+.stu48-color {
+    color: #cee7fb;
+}
+
+.stuRS-color {
+    color: #8f8f8f;
+}
+
+.stu48-bg {
+    background: #cee7fb;
+}
+
+.stu48-bg {
+    background: #cee7fb;
+}
+
+.stuRS-bg {
+    background: #8f8f8f;
+}
+
+
+/* ***********/
+/* Groupe 46 */
+/* ***********/
+
+/* Nogizaka46 */
+
+.nogizaka46-color {
+    color: #8b57ad;     /* alt color : #7e0f85 */
+}
+
+.nogizaka46-bg {
+    background: #8b57ad;    /* alt color : #7e0f85 */
+}
+
+/* Keyakizaka46 */
+
+.keyakizaka46-color {
+    color: #2c8800; /* alt color: #20b832 and #e62660 */
+}
+
+.kkz46Kanji-color {
+    color: #2c8800;
+}
+
+.kkz46Hiragana-color {
+    color: #8f8f8f;
+}
+
+.keyakizaka46-bg {
+    background: #2c8800;    /* alt color: #20b832 and #e62660 */
+}
+
+.kkz46Kanji-bg {
+    background: #2c8800;
+}
+
+.kkz46Hiragana-bg {
+    background: #8f8f8f;
+}
+
+
+/*      */
+/* logo */
+/*      */
+
+.akb48-lg {
+    background-color: hsl(333, 77%, 72%);
+    background-image: -moz-linear-gradient(left, hsl(333, 77%, 67%), hsl(333, 77%, 72%), hsl(333, 77%, 79%));
+    background-image: -webkit-gradient(linear, left top, right top, from(hsl(333, 77%, 67%)), color-stop(hsl(333, 77%, 72%)), to(hsl(333, 77%, 79%)));
+    background-image: -webkit-linear-gradient(left, hsl(333, 77%, 67%), hsl(333, 77%, 72%), hsl(333, 77%, 79%));
+    background-image: -o-linear-gradient(left, hsl(333, 77%, 67%), hsl(333, 77%, 72%), hsl(333, 77%, 79%));
+    background-image: linear-gradient(to right, hsl(333, 77%, 67%), hsl(333, 77%, 72%), hsl(333, 77%, 79%));
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFEC6AA4', endColorstr='#FFF2A0C5', GradientType=1);
+    background-repeat: repeat-y;
+}
+
+.ske48-lg {
+    background-color: hsl(44, 100%, 48%);
+    background-image: -moz-linear-gradient(left, hsl(44, 100%, 45%), hsl(44, 100%, 48%), hsl(44, 100%, 58%));
+    background-image: -webkit-gradient(linear, left top, right top, from(hsl(44, 100%, 45%)), color-stop(hsl(44, 100%, 48%)), to(hsl(44, 100%, 58%)));
+    background-image: -webkit-linear-gradient(left, hsl(44, 100%, 45%), hsl(44, 100%, 48%), hsl(44, 100%, 58%));
+    background-image: -o-linear-gradient(left, hsl(44, 100%, 45%), hsl(44, 100%, 48%), hsl(44, 100%, 58%));
+    background-image: linear-gradient(to right, hsl(44, 100%, 45%), hsl(44, 100%, 48%), hsl(44, 100%, 58%));
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFE6A800', endColorstr='#FFFFC629', GradientType=1);
+    background-repeat: repeat-y;
+}
+
+.nmb48-lg {
+    background-color: hsl(30, 86%, 34%);
+    background-image: -moz-linear-gradient(left, hsl(30, 86%, 29%), hsl(30, 86%, 34%), hsl(37, 86%, 48%));
+    background-image: -webkit-gradient(linear, left top, right top, from(hsl(30, 86%, 29%)), color-stop(hsl(30, 86%, 34%)), to(hsl(37, 86%, 48%)));
+    background-image: -webkit-linear-gradient(left, hsl(30, 86%, 29%), hsl(30, 86%, 34%), hsl(37, 86%, 48%));
+    background-image: -o-linear-gradient(left, hsl(30, 86%, 29%), hsl(30, 86%, 34%), hsl(37, 86%, 48%));
+    background-image: linear-gradient(to right, hsl(30, 86%, 29%), hsl(30, 86%, 34%), hsl(37, 86%, 48%));
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FF8A4A0A', endColorstr='#FFE49311', GradientType=1);
+    background-repeat: repeat-y;
+}
+
+.hkt48-lg {
+    background-color: hsl(0, 0%, 0%);
+    background-image: -moz-linear-gradient(left, hsl(0, 0%, 0%), hsl(0, 0%, 0%), hsl(0, 0%, 10%));
+    background-image: -webkit-gradient(linear, left top, right top, from(hsl(0, 0%, 0%)), color-stop(hsl(0, 0%, 0%)), to(hsl(0, 0%, 10%)));
+    background-image: -webkit-linear-gradient(left, hsl(0, 0%, 0%), hsl(0, 0%, 0%), hsl(0, 0%, 10%));
+    background-image: -o-linear-gradient(left, hsl(0, 0%, 0%), hsl(0, 0%, 0%), hsl(0, 0%, 10%));
+    background-image: linear-gradient(to right, hsl(0, 0%, 0%), hsl(0, 0%, 0%), hsl(0, 0%, 10%));
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#FF1A1A1A', GradientType=1);
+    background-repeat: repeat-y;
+}
+
+.sdn48-lg {
+    background-color: hsl(222, 19%, 35%);
+    background-image: -moz-linear-gradient(left top, hsl(222, 19%, 35%), hsl(222, 19%, 82%), hsl(222, 19%, 35%), hsl(222, 19%, 22%));
+    background-image: -webkit-gradient(linear, left top, right bottom, from(hsl(222, 19%, 35%)), color-stop(hsl(222, 19%, 82%)), color-stop(hsl(222, 19%, 35%)), to(hsl(222, 19%, 22%)));
+    background-image: -webkit-linear-gradient(left top, hsl(222, 19%, 35%), hsl(222, 19%, 82%), hsl(222, 19%, 35%), hsl(222, 19%, 22%));
+    background-image: -o-linear-gradient(left top, hsl(222, 19%, 35%), hsl(222, 19%, 82%), hsl(222, 19%, 35%), hsl(222, 19%, 22%));
+    background-image: linear-gradient(to right bottom, hsl(222, 19%, 35%), hsl(222, 19%, 82%), hsl(222, 19%, 35%), hsl(222, 19%, 22%));
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFC8CEDA', endColorstr='#FF2D3443', GradientType=1);
+    background-repeat: repeat-y;
+}
+
+.nogizaka46-lg {
+    background-color: hsl(290, 55%, 36%);
+    background-image: -moz-linear-gradient(left, hsl(290, 55%, 31%), hsl(290, 55%, 36%), hsl(290, 55%, 49%));
+    background-image: -webkit-gradient(linear, left top, right top, from(hsl(290, 55%, 31%)), color-stop(hsl(290, 55%, 36%)), to(hsl(290, 55%, 49%)));
+    background-image: -webkit-linear-gradient(left, hsl(290, 55%, 31%), hsl(290, 55%, 36%), hsl(290, 55%, 49%));
+    background-image: -o-linear-gradient(left, hsl(290, 55%, 31%), hsl(290, 55%, 36%), hsl(290, 55%, 49%));
+    background-image: linear-gradient(to right, hsl(290, 55%, 31%), hsl(290, 55%, 36%), hsl(290, 55%, 49%));
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FF6C247B', endColorstr='#FFAB38C2', GradientType=1);
+    background-repeat: repeat-y;
+}
