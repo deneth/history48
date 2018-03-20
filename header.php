@@ -23,6 +23,5 @@
 		<img src="images/Keyakizaka46_logo.png" width=100 height=150 alt="Keyakizaka46 Logo" />
 		<img src="images/Yoshimotozaka46_logo.png" width=100 height=150 alt="Yoshimotozaka46 Logo" />
 	</div>
-	</div>
 	<hr />
 </header>

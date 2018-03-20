@@ -589,16 +589,12 @@
 		// ************************************
 		// ************************************	
 		case "graph": // affichage du graphique
-			$res = $bdd->query("SELECT MIN(date_ev) AS date_ev FROM nbgirl");
-			$rows = $res->fetchAll();
-			$StartDate = $rows[0]["date_ev"];
 			
-			$Today = new DateTime();
-			$EndDate = $Today->format('Y-m-d');
-
 			$WidthBars = 10000;
 
 			include("count_girl.php");
+
+			//print_r($Team).PHP_EOL.PHP_EOL;
 
 			$Data = "";
 			$res = $bdd->query("SELECT group48.id, group48.group48, team.id, team.team, team.color
@@ -617,6 +613,8 @@
 							color: \"#".$val[4]."\" },";
 			}
 			$res->closeCursor(); // Termine le traitement de la requête
+
+		//print_r($Data);
 
 			$CSS = "<link rel=\"stylesheet\" href=\"css/graph.css\" type=\"text/css\" />";
 
@@ -638,7 +636,7 @@
 
 	$(function() {
 
-		var datasets = [ $Data ];
+		var datasets = [ ".$Data." ];
 		
 
 		var stack = 0,
@@ -657,7 +655,7 @@
 					},
 					bars: {
 						show: bars,
-						barWidth: 24 * 60 * 60 * $WidthBars,
+						barWidth: 24 * 60 * 60 * ".$WidthBars.",
 						align: \"center\"
 					}
 				},
@@ -712,6 +710,7 @@
 			\"border-radius\": \"5px\",
 			padding: \"2px\",
 			\"background-color\": \"#fff\",
+			\"color\": \"black\",
 			opacity: 0.80
 		}).appendTo(\"body\");
 		
@@ -776,7 +775,7 @@
 
 			$html = "<div class=\"demo-container\">".PHP_EOL;
 			$html .= "<div id=\"placeholder\" class=\"demo-placeholder\" style=\"float:left; width:90%;\"></div>".PHP_EOL;
-			$html .= "<p id=\"choices\" style=\"float:right; width:10%;\"></p>".PHP_EOL;
+			$html .= "<p id=\"choices\" style=\"float:right; width:10%; color:black;\"></p>".PHP_EOL;
 			$html .= "</div>".PHP_EOL;
 
 			break;

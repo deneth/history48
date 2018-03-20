@@ -1,9 +1,4 @@
 <?php
-	$res = $bdd->query("SELECT * FROM nbgirl
-						WHERE date_ev BETWEEN '$StartDate' AND '$EndDate'
-						ORDER BY date_ev");
-	$rows = $res->fetchAll();
-	
 	$Team = array();
 	$res = $bdd->query("SELECT DISTINCT date_ev FROM ev_girl ORDER BY date_ev;");
 	$rows = $res->fetchAll();
@@ -18,7 +13,7 @@
 							;");
 		while ($team = $res2->fetch())
 		{
-			// la requette pour récupérer le nb de fille dans une team a une date
+			// la requette pour récupérer le nb de fille dans une team à une date
 			$res3 = $bdd->query("SELECT L.id_girl, M.firstname, M.lastname, t1.team, t2.team AS 'double'
 							FROM ev_girl L
 							INNER JOIN girls M
@@ -57,9 +52,7 @@
 			$NbGirl = $res3->rowCount();
 
 			$Date = explode("-", $date_ev[0]); 
-
-			//print_r($Team);
-			$Team[$team[2]] = "[gd(".$Date[0].",".$Date[1].",".$Date[2]."),".$NbGirl."],";
+			$Team[$team[2]] .= "[gd(".$Date[0].",".$Date[1].",".$Date[2]."),".$NbGirl."],";
 		}
 	}
 
