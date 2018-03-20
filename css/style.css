@@ -71,6 +71,18 @@ body {
     display: inline-block;
 }
 
+.ngt {
+    color: red;
+}
+
+.stu {
+    color: #004A9F;
+}
+
+.sdn {
+    color: black;
+}
+
 .footer {
     font-size: 0.9em;
     text-align: center;
