@@ -970,7 +970,7 @@
 	<meta charset="utf-8" />
 	<title><?php echo TITLE; ?></title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	<link rel="stylesheet" href="css/48g-colors.css" type="text/css" />
+	<link rel="stylesheet" href="css/akb48g-colors.css" type="text/css" />
 	<?php 
 		if (isset($CSS))
 		{

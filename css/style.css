@@ -13,6 +13,13 @@ body {
     width: 80%;
 }
 
+.titre {
+    background: teal;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
 .menu {
     /*border: 1px solid white;*/
     list-style: none;
