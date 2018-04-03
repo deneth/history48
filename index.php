@@ -597,20 +597,15 @@
 			//print_r($Team).PHP_EOL.PHP_EOL;
 
 			$Data = "";
-			$res = $bdd->query("SELECT group48.id, group48.group48, team.id, team.team, team.color
-								FROM group48
-								LEFT JOIN team
-								ON team.id_group48 = group48.id
-								WHERE team.color IS NOT NULL
-								;");
+			$res = $bdd->query("SELECT id, team, color FROM team WHERE color IS NOT NULL;");
 			$rows = $res->fetchAll();
 			foreach ($rows as $val)
 			{
 
 				$Data .= "{
-							label: \"".$val[3]."\",
-							data: [ ".$Team[$val[2]]." ],
-							color: \"#".$val[4]."\" },";
+							label: \"".$val['team']."\",
+							data: [ ".$Team[$val['id']]." ],
+							color: \"#".$val['color']."\" },";
 			}
 			$res->closeCursor(); // Termine le traitement de la requête
 

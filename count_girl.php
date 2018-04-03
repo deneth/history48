@@ -1,16 +1,16 @@
 <?php
 	$Team = array();
+	$res2 = $bdd->query("SELECT id FROM team WHERE color IS NOT NULL;");
+	while ($team = $res2->fetch())
+	{
+		$Team[$team['id']] = NULL; 
+	}
 	$res = $bdd->query("SELECT DISTINCT date_ev FROM ev_girl ORDER BY date_ev;");
 	$rows = $res->fetchAll();
 
 	foreach ($rows as $date_ev)
 	{
-		$res2 = $bdd->query("SELECT group48.id, group48.group48, team.id, team.team, team.color
-							FROM group48
-							LEFT JOIN team
-							ON team.id_group48 = group48.id
-							WHERE team.color IS NOT NULL
-							;");
+		$res2 = $bdd->query("SELECT id FROM team WHERE color IS NOT NULL;");
 		while ($team = $res2->fetch())
 		{
 			// la requette pour récupérer le nb de fille dans une team à une date
@@ -33,7 +33,7 @@
 							WHERE S.id IS NULL
 							AND L.date_ev <= '$date_ev[0]'
 							AND L.id_type IN (2,3,7)
-							AND L.id_team = $team[2]
+							AND L.id_team = $team[0]
 							UNION
 							SELECT C.id_girl, M.firstname, M.lastname, t1.team AS team, 
 									t3.team AS 'double'
@@ -44,7 +44,7 @@
 								ON C.team_double=t1.id
 							LEFT JOIN team t3
 								ON C.team_orig =t3.id			
-							WHERE C.team_double = $team[2]
+							WHERE C.team_double = $team[0]
 							AND end_date IS NULL
 							AND start_date <= '$date_ev[0]'
 							ORDER BY firstname;");
@@ -52,7 +52,7 @@
 			$NbGirl = $res3->rowCount();
 
 			$Date = explode("-", $date_ev[0]); 
-			$Team[$team[2]] .= "[gd(".$Date[0].",".$Date[1].",".$Date[2]."),".$NbGirl."],";
+			$Team[$team['id']] .= "[gd(".$Date[0].",".$Date[1].",".$Date[2]."),".$NbGirl."],";
 		}
 	}
 
